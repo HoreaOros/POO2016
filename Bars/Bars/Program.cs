@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace Bars
 {
+    // Clasa principala a aplicatiei care contine metoda Main
+    // Punctul de intrare in program.
     class Program
     {
         static void Main(string[] args)
         {
+            /*
+            Metoda Main instantieaza clasele create in program
+            si testeaza proprietatile acestor clase;
+            */
             HorzBar h = new HorzBar(4);
             Console.WriteLine("Lugimea barei orizontale este: {0}", h.Length);
 
@@ -21,6 +27,8 @@ namespace Bars
             Console.WriteLine("Inaltimea frame-ului este: {0}", f.Height);
 
             Ladder ladd = new Ladder(2, 2, 1);
+
+            
         }
     }
 }

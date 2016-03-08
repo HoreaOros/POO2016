@@ -1,9 +1,19 @@
 ﻿namespace Bars
 {
+    /// <summary>
+    /// O bara orizonala de tipul +---+
+    /// </summary>
     public class HorzBar
     {
+        /// <summary>
+        /// Lungimea barei orizontale
+        /// </summary>
         private int length;
 
+        /// <summary>
+        /// Metoda constructor a barei orizontale
+        /// </summary>
+        /// <param name="v">Lungimea barei orizontale</param>
         public HorzBar(int v)
         {
             length = v;
@@ -16,6 +26,9 @@
         }
 
         #region Properties
+        /// <summary>
+        /// Get - set lungime bara orizontala
+        /// </summary>
         public int Length
         {
             get
