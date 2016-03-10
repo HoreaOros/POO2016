@@ -4,16 +4,22 @@ namespace Cont
 {
     internal class ContBancar
     {
+        #region Fields
         private int sold;
         private string titular;
         private int contor;
+        #endregion
+
+        #region Constructors
         public ContBancar(string titular)
         {
             sold = 0;
             contor = 0;
             this.titular = titular;
         }
+        #endregion
 
+        #region Public members
         /// <summary>
         /// Depune o suma de bani in cont
         /// </summary>
@@ -51,7 +57,9 @@ namespace Cont
                 Console.WriteLine("\tOperatie de retragere refuzata. Fonduri insuficiente.");
             }
         }
+        #endregion
 
+        #region Public properties
         public int Sold
         {
             get
@@ -61,7 +69,7 @@ namespace Cont
                 return sold;
             }
         }
-
+        #endregion
         public override string ToString()
         {
             return "Contul al carui titular este " + titular + " are soldul " + sold.ToString();
