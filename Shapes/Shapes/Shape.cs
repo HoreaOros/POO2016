@@ -4,7 +4,7 @@ using System.Diagnostics;
 
 namespace Shapes
 {
-    internal class Shape
+    internal abstract class Shape
     {
         int id;
         protected Point p1, p2;
@@ -31,9 +31,10 @@ namespace Shapes
 
             return sb.ToString();
         }
+        public abstract void Draw();
     }
 
-    struct Point
+    struct Point 
     {
         private double x, y;
         public Point(double x, double y)

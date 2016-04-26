@@ -17,5 +17,10 @@ namespace Shapes
                     Math.Pow((p1.X - p2.X), 2) + 
                     Math.Pow((p1.Y - p2.Y), 2));
         }
+        public override void Draw()
+        {
+            // base.Draw();
+            Console.WriteLine("Am desenat un segment");
+        }
     }
 }

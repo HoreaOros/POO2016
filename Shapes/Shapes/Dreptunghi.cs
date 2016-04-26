@@ -2,7 +2,7 @@
 
 namespace Shapes
 {
-    internal class Dreptunghi : Shape
+    internal class Dreptunghi : Shape, ILungime
     {
 
 
@@ -32,6 +32,20 @@ namespace Shapes
             {
                 return Width * Height;
             }
+        }
+
+        /// <summary>
+        /// Calculeaza permiterul dreptunghiului
+        /// </summary>
+        /// <returns>Perimetrul dreptunghiului</returns>
+        public double Lungime()
+        {
+            return 2 * Width + 2 * Height;
+        }
+        public override void Draw()
+        {
+            // base.Draw();
+            Console.WriteLine("Am desenat un dreptunghi");
         }
     }
 }

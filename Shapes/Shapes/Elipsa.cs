@@ -14,6 +14,12 @@ namespace Shapes
         public double Lungime()
         {
             // lungimea unei elipse???
+            return 42;
+        }
+        public override void Draw()
+        {
+            // base.Draw();
+            Console.WriteLine("Am desenat o elipsa");
         }
     }
 }
