@@ -35,7 +35,7 @@ namespace Shapes
         }
 
         /// <summary>
-        /// Calculeaza permiterul dreptunghiului
+        /// Calculeaza perimetrul dreptunghiului
         /// </summary>
         /// <returns>Perimetrul dreptunghiului</returns>
         public double Lungime()
