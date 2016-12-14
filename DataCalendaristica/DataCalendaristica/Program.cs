@@ -40,7 +40,7 @@ namespace DataCalendaristica
                     Console.WriteLine("Bleaahh!");
                     break;
                 case ZileSaptamana.Vineri:
-                    Console.WriteLine("Finnaly. se apropie weekendul.");
+                    Console.WriteLine("Finally. Se apropie weekendul.");
                     break;
                 case ZileSaptamana.Sambata:
                 case ZileSaptamana.Duminica:
